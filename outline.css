@@ -1,0 +1,52 @@
+.outline-cor,div{
+ outline-color: blue ;
+ border: 5px solid red;
+}
+
+.outline-01{
+    outline-style: dotted;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-02{
+    outline-style:dashed;
+    padding: 20px;
+    margin: 20px;
+}
+.outline-03{
+    outline-style:double;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-04{
+    outline-style: solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-05{
+    outline-style: groove;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-06{
+    outline-style: ridge;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-07{
+    outline-style: inset;
+    padding: 20px;
+    margin: 20px;
+}
+
+.outline-08{
+    outline-style: outset;
+    padding: 20px;
+    margin: 20px;
+}
+
