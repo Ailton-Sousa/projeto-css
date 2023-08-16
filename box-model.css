@@ -1,7 +1,31 @@
 /*Box model*/
-div{
-    width: 300px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    display: flex;
+    border: 1px solid;
+    flex-direction: row;
+     /* row = padrão
+      * row-reverse = organização invertido
+      * column = organização em coluna normal
+      * column-reverse = organização em coluna reverssa
+      */ 
+
+      flex-wrap: wrap ;
+   /* 
+   * Wrap,wrap-reverse, nowrap
+   */
+      justify-content:center;
+
+      align-items: center;
+}
+
+.box{
+    width: 100px;
     border: 15px solid blue;
     padding: 50px;
-    margin: 10;
+    margin: 20px;
+    text-align: center;
 }
