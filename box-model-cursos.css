@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1{
+    margin: 40px;
+}
+
+.containe-main{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background: yellow;
+    border-radius: 5%;
+}
