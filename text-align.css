@@ -29,4 +29,27 @@ h2{
 #text-alingn-01 {text-align: justify;}
 */
 
-#text-alingn-01{}
+#text-alingn-01{
+    text-decoration: overline;
+}
+
+
+#text-alingn-02{
+    text-decoration: line-through;
+    text-decoration-color: rgb(30, 16, 226);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 10px;
+}
+#text-alingn-03{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    
+}
+
+#text-alingn-04{
+    text-decoration: overline underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: auto;
+}
