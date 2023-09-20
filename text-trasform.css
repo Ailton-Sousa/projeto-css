@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto-01{
+    text-transform: lowercase; /*Modifica para letras minusculas*/
+}
+
+#texto-02{
+    text-transform:uppercase ; /*Modiffica para letras maiusculas*/
+}
+
+#texto-03{
+    text-transform: capitalize; /*Moodifica para a primeira letra minuscula*/
+}
